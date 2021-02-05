@@ -1,0 +1,314 @@
+@media (min-width:501px) and (max-width:768px){
+
+    body {
+        width: 100vw;
+    }
+
+    ul {
+        list-style:none;
+    }
+    .navbar ul {
+        display:flex;
+    }
+
+    .navbar {
+        margin-top: 30px;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        text-align: center;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+        font-size: 25px;
+        
+    }
+
+    .hero .content {
+        padding-top: 0;
+    }
+
+    .hero .content  h1.fname,
+    .hero .content  h1.lname {
+        font-size: 7em;
+    }
+
+    .myskills {
+        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: auto;
+    }
+
+    .aboutme {
+        grid-column: 1 / span 2;
+        text-align: center;
+        width: 100%;
+
+    }
+    
+    .skills {
+        grid-column: 2 / span 1 ;
+        position:relative;
+        left: -35%;
+
+    }
+
+
+    .callme {
+        /*display: grid;
+        grid-gap:1rem;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: auto auto auto;
+        background: white;
+
+        background: var(--second-color);*/
+        /*display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;*/
+        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: auto;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+        
+    }
+
+    .callme .call .iconscall {
+        display:inline-table
+    
+    }
+    
+    .callme .call .me {
+        display: block;
+    }
+    
+    
+    .callme .call .iconscall {
+        background: white;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    }
+
+    .services {
+        margin: 0;
+    }
+
+    .servicestool {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: auto auto;
+    }
+
+    .services .service-info {
+        margin: 30px 20px;
+    }
+
+    .testimonial {
+        /*display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;*/
+        margin: 0;
+        padding: 0;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .testemonials .test {
+        padding-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 20px;
+    }
+
+
+    .porto-info {
+        grid-template-columns: auto auto;
+    }
+
+    .porto-info img{
+        width: 100%;
+    }
+
+    .contact {
+        padding: 15px;
+    }
+
+    .contact-info {
+        grid-template-columns: auto;
+        padding: 20px;
+    }
+
+    .allcontact {
+        padding: 0;
+    }
+}
+
+
+
+
+@media (max-width: 500px) {
+    body {
+        width: 100vw;
+    }
+
+    ul {
+        list-style:none;
+    }
+    .navbar ul {
+        display:list-item;
+    }
+
+    .navbar {
+        margin-top: 120px;
+        background: none;
+        height: 120px;
+        padding: 20px;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        text-align: center;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+        font-size: 30px;
+        
+    }
+
+    .hero .content {
+        padding-top: 300px;
+    }
+
+    .hero .content  h1.fname,
+    .hero .content  h1.lname {
+        font-size: 4em;
+    }
+
+    .myskills {
+        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: auto;
+    }
+
+    .aboutme {
+        grid-column: 1 / span 2;
+        text-align: center;
+        width: 70%;
+
+    }
+    
+    .skills {
+        grid-column: 2 / span 1 ;
+
+    }
+
+    .myskills .progress .tec div {
+        width: 350px;
+    }
+
+    .callme {
+        /*display: grid;
+        grid-gap:1rem;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: auto auto auto;
+        background: white;
+
+        background: var(--second-color);*/
+        /*display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;*/
+        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: auto;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+        
+    }
+
+    .callme .call .iconscall {
+        display:inline-table
+    
+    }
+    
+    .callme .call .me {
+        display: block;
+    }
+    
+    
+    .callme .call .iconscall {
+        background: white;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    }
+
+    .services {
+        margin: 0;
+    }
+
+    .servicestool {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: auto;
+    }
+
+    .services .service-info {
+        margin: 30px 20px;
+    }
+
+    .testimonial {
+        /*display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;*/
+        margin: 0;
+        padding: 0;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .testemonials .test {
+        padding-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 20px;
+    }
+
+
+    .porto-info {
+        grid-template-columns: auto;
+    }
+
+    .porto-info img{
+        width: 100%;
+    }
+
+    .contact {
+        padding: 15px;
+    }
+
+    .contact-info {
+        grid-template-columns: auto;
+        padding: 20px;
+    }
+
+    .allcontact {
+        padding: 0;
+    }
+
+}
+
+
